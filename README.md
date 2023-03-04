@@ -12,4 +12,14 @@ Distributed under the MIT license.
 
 Here is the documentation on the operators included.
 
+## filterForDoubleClick
 
+Allows you to simply use RxJS to gather double click events.
+
+## stopWhileHidden
+
+Stops and restarts whatever Observable in the stream when the window or tab is not in view.
+
+## logWhenObservableCompletes
+
+A decorator that logs when a method returning an observable completes.
