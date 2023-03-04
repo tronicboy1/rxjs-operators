@@ -10,4 +10,6 @@ Distributed under the MIT license.
 
 # Operators Included
 
-Here is the documentation on the operators included
+Here is the documentation on the operators included.
+
+

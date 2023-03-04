@@ -2,7 +2,8 @@
   "name": "@tronicboy/rxjs-operators",
   "version": "0.0.1",
   "description": "A collection of useful RxJS operators.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "author": "tronicboy1 <mayeraus@icloud.com>",
   "license": "MIT",
   "private": false,
@@ -13,5 +14,18 @@
   "scripts": {
     "build": "tsc"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tronicboy1/rxjs-operators"
+  },
+  "keywords": [
+    "rxjs",
+    "operators"
+  ],
+  "dependencies": {
+    "rxjs": "^7.8.0"
+  }
 }
