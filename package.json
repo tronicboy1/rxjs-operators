@@ -1,0 +1,15 @@
+{
+  "name": "@tronicboy/rxjs-operators",
+  "version": "0.0.1",
+  "description": "A collection of useful RxJS operators.",
+  "main": "index.js",
+  "author": "tronicboy1 <mayeraus@icloud.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.0.1-rc"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
