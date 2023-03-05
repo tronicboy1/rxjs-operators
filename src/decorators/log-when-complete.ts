@@ -4,10 +4,10 @@ export function logWhenObservableCompletes<This, Args extends any[], Return exte
   originalMethod: (this: This, ...args: Args) => Return,
   context: ClassMethodDecoratorContext<This, (this: This, ...args: Args) => Return>,
 ) {
-  const methodName = context.name;
+  const methodName = String(context.name);
   const wrappedMethod = function (this: This, ...args: Args): Return {
     const called$ = originalMethod.call(this, ...args);
-    return called$.pipe(finalize(() => console.log(`LOG: ${String(methodName)}'s Observable completed!`))) as Return;
+    return called$.pipe(finalize(() => console.log(`LOG: ${methodName}'s Observable completed!`))) as Return;
   };
   return wrappedMethod;
 }
