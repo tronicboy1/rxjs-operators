@@ -1,6 +1,6 @@
 {
   "name": "@tronicboy/rxjs-operators",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A collection of useful RxJS operators.",
   "main": "lib/cjs/index.js",
   "exports": {
