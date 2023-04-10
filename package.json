@@ -2,7 +2,11 @@
   "name": "@tronicboy/rxjs-operators",
   "version": "0.0.2",
   "description": "A collection of useful RxJS operators.",
-  "main": "lib/index.js",
+  "main": "lib/cjs/index.js",
+  "exports": {
+    "import": "./lib/mjs/index.js",
+    "require": "./lib/cjs/index.js"
+  },
   "types": "types/index.d.ts",
   "author": "tronicboy1 <mayeraus@icloud.com>",
   "license": "MIT",
@@ -12,7 +16,7 @@
     "typescript": "^5.0.1-rc"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && tsc --project tsconfig.esm.json"
   },
   "files": [
     "lib/**/*",
