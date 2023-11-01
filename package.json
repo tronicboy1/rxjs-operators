@@ -5,7 +5,8 @@
   "main": "lib/cjs/index.js",
   "exports": {
     "import": "./lib/mjs/index.js",
-    "require": "./lib/cjs/index.js"
+    "require": "./lib/cjs/index.js",
+    "types": "./types/index.d.ts"
   },
   "types": "types/index.d.ts",
   "author": "tronicboy1 <mayeraus@icloud.com>",
